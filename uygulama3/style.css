@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.timeline {
+    width: 500px;
+    height: 500px;
+    background-color: #eee;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 10px 10px 8px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.svg{
+    font-size:50px;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: #e76f51;
+;
+}
+
+.content{
+    flex-grow:1;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.arrow{
+  width: 5px;
+  height: 30px;
+  background-color: #ccc;
+}
+
